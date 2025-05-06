@@ -1,0 +1,21 @@
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .pagination span {
+    min-width: 120px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,26 @@
+.productDetail {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+  }
+  
+  .image {
+    width: 300px;
+    object-fit: cover;
+  }
+  
+  .info {
+    max-width: 600px;
+  }
+  
+  .buyBtn {
+    padding: 0.6rem 1.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
