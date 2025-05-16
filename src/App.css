@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* Example of the page wrapper to enable sticky footer */
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+.mainContent {
+  flex-grow: 1; /* takes all available space pushing footer down */
+}
+

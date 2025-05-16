@@ -124,3 +124,40 @@
   border: none;
   border-radius: 4px;
 }
+
+.authLinks {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: #f0f4f8;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #1a1a1a;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.signOutButton {
+  background-color: #e74c3c;
+  border: none;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.signOutButton:hover {
+  background-color: #c0392b;
+}
+
